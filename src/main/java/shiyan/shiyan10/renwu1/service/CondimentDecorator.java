@@ -1,4 +1,5 @@
 package shiyan.shiyan10.renwu1.service;
 
-public class CondimentDecorator {
+public abstract class CondimentDecorator extends Coffee {
+    protected Coffee coffee;
 }
